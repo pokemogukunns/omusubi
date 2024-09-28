@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>ログイン｜マイページ｜ちびむすドリル</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="skype_toolbar" content="skype_toolbar_parser_compatible">
+ 
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 
+<link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+<link type="text/css" rel="stylesheet" href="https://happylilac.net/mypage/css/reset.css?20180330" media="all">
+<link type="text/css" rel="stylesheet" href="https://happylilac.net/mypage/css/common.css?20180330" media="all">
+<link type="text/css" rel="stylesheet" href="https://happylilac.net/mypage/css/common-case.css?20180330" media="all">
+<link type="text/css" rel="stylesheet" href="https://happylilac.net/mypage/css/parts.css?20180330" media="all">
+ 
+<script type="text/javascript" src="https://happylilac.net/mypage/js/common.js?20180330"></script>
+<script type="text/javascript" src="https://happylilac.net/mypage/js/lib_util.js?20180330"></script>
+<script type="text/javascript">
+var _SERVER_NAME = "/mypage/" ;
+</script>
+ 
+ 
+</head>
+<body>
+<script type="text/javascript" src="https://ad.xdomain.ne.jp/js/server-php.js"></script>
+ 
+<div class="container">
+ 
+<header class="header">
+	<div class="header_inner">
+		<div class="column">
+			<div class="item">
+				<a href="./login.html" class="logo">
+					<div class="img">
+						<img src="https://happylilac.net/mypage/images/logo.png" alt="ちびむすドリル">
+					</div>
+					<div class="txt">マイページ</div>
+				</a>
+			</div>
+ 
+			<div class="item item_right">
+								<div class="header_navi">
+					<div class="navi_item">
+						<a href="./" class="site_link">
+							<span class="ico"></span>
+							<span class="txt">
+								<span class="pc_inline">サイトに戻る</span>
+								<span class="sp_inline">サイトへ</span>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="account_area">
+			<div class="inner">
+				<p class="user_name">さん</p>
+				<ul>
+					<li>
+						<a href="./henkou.html" class="btn01">基本情報変更</a>
+					</li>
+					<li>
+						<a href="./taikai.html" class="btn02">退会手続き</a>
+					</li>
+ 
+					<div class="logout_area">
+						<a href="./logout.html" class="logout_link">ログアウト</a>
+					</div>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+ 
+<div class="content_mypage_message">
+	<p>学習プリントのダウンロード（閲覧）履歴、お気に入りページの保存、取り組んだプリントの得点管理ができます。</p>
+</div>
+ 
+ 
+<div class="content">
+ 
+	<div class="breadcrumb signup">
+		<div class="inner">
+			<div class="mypage_message">
+				<p class="message">学習プリントのダウンロード（閲覧）履歴、お気に入りページの保存、取り組んだプリントの得点管理ができます。</p>
+			</div>
+			<ol>
+				<li>ログイン</li>
+			</ol>
+		</div>
+	</div>
+ 
+	<section class="main_section content_inner">
+		<h1 class="page_title">ログイン</h1>
+		<div class="main">
+ 
+			<div class="column02">
+ 
+				<div class="col">
+					<form method="post">
+ 
+						<div class="box">
+							<h2 class="txt_title">すでにアカウントをお持ちの方</h2>
+							<div class="form_item">
+								<div class="form_title">
+									<p class="title">ログインID</p>
+								</div>
+								<div class="form_input">
+									<input type="text" class="text" placeholder="メールアカウント" name="email" value="" maxlength="255">
+								</div>
+							</div>
+ 
+							<div class="form_item">
+								<div class="form_title">
+									<p class="title">パスワード</p>
+								</div>
+								<div class="form_input">
+									<input type="password" class="text" name="password" value="" maxlength="40">
+								</div>
+							</div>
+							<p>
+								<a href="./nopass.html" class="txt_link">パスワードを忘れた方</a>
+							</p>
+ 
+							<div class="btn_area pt40">
+								<ul>
+									<li>
+										<button class="base_btn action_btn long_btn" type="submit" name="action" value="loginAction">
+											<span class="txt">ログイン</span>
+										</button>
+									</li>
+								</ul>
+							</div>
+						</div><!-- .box -->
+					</form>
+				</div>
+ 
+ 
+ 
+				<div class="col">
+					<div class="white_box">
+						<h2 class="txt_title center">お持ちのSNSのアカウントと<br class="sp">連携してログイン</h2>
+ 
+						<ul class="sns_login_area">
+							<li>
+								<a href="https://www.facebook.com/v6.0/dialog/oauth?client_id=1816831148611120&redirect_uri=https://happylilac.net/mypage/social_redirect/facebook&scope=email" class="sns_login_fb"><span class="txt">Facebookでログイン</span></a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="sns_login_tw _twitter"><span class="txt">Twitterでログイン</span></a>
+							</li>
+							<li>
+								<a href="https://access.line.me/oauth2/v2.1/authorize?response_type=code&lang=ja&scope=openid+profile+email&client_id=1567710049&state=uZgfxYsZWBCL3_DZRtPz&nonce=YA55P8V99Pha2RYSmnMciFbWD&redirect_uri=https://happylilac.net/mypage/social_redirect/line" class="sns_login_line"><span class="txt">LINEでログイン</span></a>
+							</li>
+							<li>
+								<a href="https://auth.login.yahoo.co.jp/yconnect/v2/authorization?response_type=code&scope=openid+profile+email&bail=1&client_id=dj00aiZpPVB0YVBuRm12Z1pYRSZzPWNvbnN1bWVyc2VjcmV0Jng9NGY-&state=uZgfxYsZWBCL3_DZRtPz&nonce=ykH5ZuALAP_swbWPJ2-r&redirect_uri=https%3A%2F%2Fhappylilac.net%2Fmypage%2Fsocial_redirect%2Fyahoo" class="sns_login_yahoo"><span class="txt">Yahoo! JAPAN IDでログイン</span></a>
+							</li>
+						</ul>
+ 
+						<div class="btn_area long_btn_area pt00">
+							<ul>
+								<li>
+									<a href="./signup.html" class="base_btn action_btn long_btn">
+										<span class="txt">無料アカウントを作成する</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+ 
+ 
+					</div>
+				</div>
+			</div>
+	</section>
+</div>
+ 
+<div class="pagetop">
+	<div class="inner">
+		<a class="fa fa-arrow-up" href="#"></a>
+	</div>
+</div>
+ 
+<footer class="footer">
+	<div class="footer_inner">
+		<ul class="navi">
+			<li><a href="./zikosyoukai.html#3">利用規約</a></li>
+			<li><a href="./contact/">お問い合わせ</a></li>
+			<li><a href="./about.html">運営会社</a></li>
+		</ul>
+		<div class="copyright">
+			<small>(C) パディンハウス All Rights Reserved.</small>
+		</div>
+ 
+	</div>
+</footer>
+ 
+</div>
+<script type="text/javascript">
+// ツイッター
+$(document).on(device.share.getMouseclickEventString(), "._twitter", function (aEvent) {
+    device.share.preventDefault(aEvent) ;
+ 
+	var submit = new makeSubmit( ) ;
+    submit.add("action", "oAuthAction") ;
+    submit.submitForm( 'social_redirect/twitter' ) ;
+});
+ 
+ 
+</script>
+</body>
+</html>
+ 
