@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>基本情報入力｜マイページ｜ちびむすドリル</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="skype_toolbar" content="skype_toolbar_parser_compatible">
+ 
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 
+<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+<link type="text/css" rel="stylesheet" href="https://happylilac.net/mypage/css/reset.css?20180330" media="all">
+<link type="text/css" rel="stylesheet" href="https://happylilac.net/mypage/css/common.css?20180330" media="all">
+<link type="text/css" rel="stylesheet" href="https://happylilac.net/mypage/css/common-case.css?20180330" media="all">
+<link type="text/css" rel="stylesheet" href="https://happylilac.net/mypage/css/parts.css?20180330" media="all">
+ 
+<script type="text/javascript" src="https://happylilac.net/mypage/js/common.js?20180330"></script>
+<script type="text/javascript" src="https://happylilac.net/mypage/js/lib_util.js?20180330"></script>
+<script type="text/javascript">
+var _SERVER_NAME = "/mypage/" ;
+</script>
+ 
+ 
+</head>
+<body>
+<script type="text/javascript" src="https://ad.xdomain.ne.jp/js/server-php.js"></script>
+ 
+<div class="container">
+<header class="header">
+	<div class="header_inner">
+		<div class="column">
+			<div class="item">
+				<a href="./login.html" class="logo">
+					<div class="img">
+						<img src="https://happylilac.net/mypage/images/logo.png" alt="ちびむすドリル">
+					</div>
+					<div class="txt">マイページ</div>
+				</a>
+			</div>
+ 
+			<div class="item mypage_message">
+				<p>学習プリントのダウンロード（閲覧）履歴、お気に入りページの保存、取り組んだプリントの得点管理ができます。</p>
+			</div>
+ 
+			<div class="item item_right">
+								<div class="header_navi">
+					<div class="navi_item">
+						<a href="./" class="site_link">
+							<span class="ico"></span>
+							<span class="txt">
+								<span class="pc_inline">サイトに戻る</span>
+								<span class="sp_inline">サイトへ</span>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="account_area">
+			<div class="inner">
+				<p class="user_name">さん</p>
+				<ul>
+					<li>
+						<a href="./henkou.html" class="btn01">基本情報変更</a>
+					</li>
+					<li>
+						<a href="./taikai.html" class="btn02">退会手続き</a>
+					</li>
+ 
+					<div class="logout_area">
+						<a href="./logout.html" class="logout_link">ログアウト</a>
+					</div>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+ 
+<div class="content_mypage_message">
+	<p>学習プリントのダウンロード（閲覧）履歴、お気に入りページの保存、取り組んだプリントの得点管理ができます。</p>
+</div>
+ 
+ 
+<div class="content">
+ 
+	<div class="breadcrumb">
+		<div class="inner">
+			<ol>
+				<li></li>
+			</ol>
+		</div>
+	</div>
+ 
+	<section class="main_section content_inner">
+		<div class="main">
+ 
+			<h2 class="txt_title">ユーザー登録に必要な情報を入力してユーザー登録を完了してください。</h2>
+ 
+			<form method="post">
+				<div class="box">
+ 
+					<div class="form_item">
+						<div class="form_title">
+							<p class="title">氏名またはニックネーム</p>
+						</div>
+						<div class="form_input">
+							<input type="text" class="text" placeholder="氏名またはニックネームを入力してください" name="user_name" value="" maxlength="100">
+						</div>
+					</div>
+ 
+					<div class="form_item">
+						<div class="form_title">
+							<p class="title">メールアドレス</p>
+						</div>
+						<div class="form_input">
+							<input type="email" class="text" placeholder="半角英数" name="email" value="" maxlength="255">
+						</div>
+					</div>
+ 
+					<div class="form_item">
+						<div class="form_title">
+							<p class="title">パスワード</p>
+						</div>
+						<div class="form_input">
+							<input type="password" class="text" placeholder="半角英数" name="password" value="" maxlength="50">
+						</div>
+					</div>
+ 
+					<div class="form_item">
+						<div class="form_title">
+							<p class="title">パスワード（確認用）</p>
+						</div>
+						<div class="form_input">
+							<input type="password" class="text" placeholder="半角英数" name="password_confirm" value="">
+						</div>
+					</div>
+ 
+				</div><!-- .box -->
+				<div class="btn_area">
+					<ul>
+						<li>
+							<a href="./login.html" class="base_btn back_btn">
+								<span class="txt">戻る</span>
+							</a>
+						</li>
+						<li class="large_btn">
+							<button class="base_btn action_btn" type="submit" name="action" value="registAction">
+								<span class="txt">入力した内容で登録する</span>
+							</button>
+						</li>
+					</ul>
+				</div>
+ 
+				<input type="hidden" name="type" value="">
+				<input type="hidden" name="id" value="">
+ 
+			</form>
+	</section>
+</div>
+ 
+<div class="pagetop">
+	<div class="inner">
+		<a class="fa fa-arrow-up" href="#"></a>
+	</div>
+</div>
+ 
+<footer class="footer">
+	<div class="footer_inner">
+		<ul class="navi">
+			<li><a href="./zikosyoukai.html#3">利用規約</a></li>
+			<li><a href="./contact/">お問い合わせ</a></li>
+			<li><a href="./about.html">運営会社</a></li>
+		</ul>
+		<div class="copyright">
+			<small>(C) パディンハウス All Rights Reserved.</small>
+		</div>
+ 
+	</div>
+</footer>
+ 
+</div>
+</body>
+</html>
+ 
